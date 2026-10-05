@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.db
+
+# Node
+node_modules/
+dist/
+.vite/
+
+# Env
+.env
+
+# Uploads (user data, don't commit real resumes)
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# OS
+.DS_Store
